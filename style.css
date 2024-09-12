@@ -1,0 +1,316 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+
+  .left-side {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    background-color: #163853;
+    padding: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+
+  .img-style {
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50%;
+    border: 5px solid white;
+  }
+
+  .section1-left,
+  .section2-left,
+  .section3-left {
+    height: auto;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .section2-left {
+    width: 100%;
+  }
+
+  .section1-left h1,
+  .section2-left h1,
+  .section3-left h1,
+  .section4-left h1 {
+    font-size: 2em;
+  }
+
+  .section1-left p {
+    font-size: 1em;
+  }
+
+  .section2-left li {
+    font-size: 1em;
+  }
+
+  .section2-left ul {
+    font-size: 1.5em;
+  }
+
+  .section3-left,
+  .section4-left {
+    font-size: 1em;
+  }
+
+  .section3-left li,
+  .section4-left li {
+    height: auto;
+  }
+
+  .right-side {
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+  }
+
+  .section1-right {
+    height: auto;
+  }
+
+  .section1-right div {
+    width: 50vw;
+    height: 1vh;
+  }
+
+  .section1-right p {
+    font-size: 1.5em;
+    line-height: 2em;
+  }
+
+  .section2-right {
+    height: auto;
+  }
+
+  .section3-right {
+    height: auto;
+  }
+
+  .section4-right {
+    height: auto;
+  }
+
+  .liftside,
+  .rightside {
+    display: block;
+    height: auto;
+  }
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 600px) {
+
+
+  .container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 150vh;
+  }
+
+
+  .left-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 150vh;
+    width: 30%;
+    background-color: #163853;
+
+  }
+
+  .img-style {
+    width: 20vh;
+    height: 20vh;
+    border-radius: 50%;
+    border: 5px solid white;
+
+  }
+
+  .section1-left,
+  .section2-left,
+  .section3-left {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    justify-content: space-between;
+  }
+
+  .section2-left {
+    width: 25vh;
+  }
+
+  .section4-left {
+
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .section1-left h1,
+  .section2-left h1,
+  .section3-left h1,
+  .section4-left h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vh;
+  }
+
+
+
+  .section1-left p {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /*التعليم*/
+
+  .section2-left li {
+    color: rgb(215, 213, 213);
+  }
+
+  .inside1-section2,
+  .inside2-section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+  }
+
+  .section2-left ul {
+    font-size: 2vh;
+    font-weight: 100;
+  }
+
+  /* المهارات*/
+
+  .section3-left,
+  .section4-left {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section3-left li,
+  .section4-left li {
+    display: flex;
+    flex-direction: column;
+    height: 4vh;
+    justify-content: space-around;
+  }
+
+
+
+
+  .right-side {
+    display: flex;
+    flex-direction: column;
+    height: 150vh;
+    width: 70%;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .section1-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50vh;
+  }
+
+  .section1-right div {
+    width: 15vh;
+    height: 1vh;
+    background-color: #1e3749;
+  }
+
+  .section1-right p {
+    color: rgb(84, 84, 84);
+    font-size: 3vh;
+    line-height: 5vh;
+
+  }
+
+  .section2-right {
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+
+  }
+
+  .section2-right p {
+    font-weight: 600;
+  }
+
+  .section3-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 95vh;
+  }
+
+  .inside1-sectionright {
+    display: flex;
+    flex-direction: column;
+
+
+  }
+
+  .inside1-sectionright h2 {
+    font-size: 3vh;
+    font-weight: 600;
+  }
+
+  .inside1-sectionright h3 {
+    font-size: 2vh;
+    line-height: 3vh;
+
+  }
+
+  .section3-right li {
+    margin-left: 25px;
+    line-height: 2.5vh;
+  }
+
+  .section4-right {
+    display: flex;
+    flex-direction: column;
+    height: 35vh;
+  }
+
+  .liftside,
+  .rightside {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    height: 6vh;
+
+
+
+
+
+
+  }
+}
